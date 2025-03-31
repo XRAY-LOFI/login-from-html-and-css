@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+    text-decoration: none;                                                                                               
+}
+
+body {
+    background-image: linear-gradient(to left,#43c6ac,#f8ffae);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    background: #ffffff71;
+    backdrop-filter: blur(15px);
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.form h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    margin-top: 12px;
+}
+
+.login input {
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border-radius: 15px;
+    margin-left: 18px;
+    border: solid 1px #000;
+    color: #333;
+    font-size: 15px;
+    padding: 20px 45px 20px 10px ;   
+}
+
+
+.btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.btn button {
+    width: 50%;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 15px;
+    margin-left: 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.forget {
+    margin: 10px 40px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget a {
+    color: #333;
+    font-size: 15px;
+}
+
+.forget a:hover {
+    text-decoration: underline;
+}
+
+/*signUp*/
+
+.signUP {
+    background: #ffffff71;
+    backdrop-filter: blur(15px);
+    width: 500px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+.signUP h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.btn2 button {
+    width: 50%;
+    height: 50px;
+    border: solid 1px #000;
+    border-radius: 15px;
+    margin-left: 120px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/*signUp*/
